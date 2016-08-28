@@ -1,0 +1,127 @@
+<style>
+.gfg-root {
+width: 100%;
+height : auto;
+position : relative;
+overflow : hidden;
+margin: 0 auto;
+text-align : center;
+font-size: 12px;
+border: 0px solid #2da5da;
+}
+.gfg-title {
+font-size: 18px;
+font-family: times new roman;
+color : #cd2122;
+background-repeat: repeat;
+line-height : 1.4em;
+overflow : hidden;
+padding: 5px;
+text-transform: uppercase;
+text-align: left;
+border-bottom: #d8d8d8 solid 1px
+}
+.gfg-entry {
+background-color: #FFFFFF;
+width : 100%;
+height : 9.2em;
+position : relative;
+overflow : hidden;
+text-align : left;
+margin-top : 3px;
+}
+.gf-title a {
+text-transform: capitalize;
+color: #558D47;
+font-size: 16px;
+font-weight: bold;
+}
+.gfg-subtitle {
+display: none;
+}
+.gfg-list {
+position : relative;
+overflow : hidden;
+text-align : left;
+font-size: 14px !important;
+}
+.gfg-listentry .gfg-listentry-odd .gfg-listentry-even .gfg-listentry-odd a  .gfg-listentry-even a{}
+
+
+.gfg-listentry {
+line-height : 1.5em;
+overflow : hidden;
+white-space : nowrap;
+text-overflow : ellipsis;
+padding: 5px 5px 5px 2px;
+margin: 5px 5px 5px 5px;
+}
+.gfg-listentry-odd {
+background-color : #F2F2F2;
+border-bottom : 1px dotted #2da5da;
+padding: 5px 5px 5px 2px;
+margin: 5px 5px 5px 5px;
+}
+.gfg-listentry-even {
+background-color : #F2F2F2;
+border-bottom : 1px dotted #CCCCCC;
+padding: 5px 5px 5px 2px;
+margin: 5px 5px 5px 5px;
+}
+.gfg-listentry-odd a{
+color: #595959;
+padding: 5px 5px 5px 2px;
+margin: 5px 5px 5px 5px;
+}
+.gfg-listentry-even a{
+color: #242424;
+padding: 5px 5px 5px 2px;
+margin: 5px 5px 5px 5px;
+}
+.gfg-listentry-highlight {
+background: #FFFFFF;
+}
+.gfg-listentry-highlight:before {
+position: absolute;
+left: 0;
+content: '\25BA ';
+font-size: 14px;
+color: #558D47;
+}
+.gfg-listentry-highlight a {
+color: #242424;
+}
+.gfg-root .gfg-entry .gf-result {
+position : relative;
+background-color: #ffffff;
+width : auto;
+height : 100%;
+padding-left : 10px;
+padding-right : 5px;
+}
+.gfg-root .gfg-entry .gf-result .gf-title {
+font-size: 14px;
+line-height : 1.2em;
+overflow : hidden;
+white-space : nowrap;
+text-overflow : ellipsis;
+margin-bottom : 2px;
+margin-top: 5px;
+}
+.gfg-root .gfg-entry .gf-result .gf-snippet {
+height : 3.8em;
+color: #000000;
+margin-top : 3px;
+}
+.gf-snippet {
+font-style: italic !important;
+}
+.clearFloat {
+clear : both;}</style>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script><script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js" type="text/javascript"></script>
+<script type="text/javascript">
+function showGadget() {var feeds = [{title:'List',url:'http://www.họcviệnđàotạokếtoán.vn/feeds/posts/default/-/Kinh nghiệm học kế toán?redirect=false&start-index=1&max-results=15'},];
+new GFdynamicFeedControl(feeds, 'feedGadget',{title: 'Tin tức',numResults : 4, displayTime : 6000, hoverTime : 600});} google.load("feeds", "1");
+google.setOnLoadCallback(showGadget);
+</script>
+<div id="feedGadget">Đang tải...</div>
